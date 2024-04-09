@@ -1,0 +1,112 @@
+
+
+
+/* .card-container {
+    height: 300px;
+    width:  300px;
+}
+
+.card-container .card {
+    background-color: rgb(142, 142, 147);
+    height: 57px;
+    width:  100%;
+    padding: 0 20px;
+    padding-bottom: 30px;
+    border-radius: 15px;
+    z-index: 5;
+    box-shadow: 0px 0px 10px 1px rgb(201, 201, 201);
+    overflow: hidden;
+    transition: ease-in-out .5s;
+}
+.card-container .card:hover {
+    height: 114%;
+}
+.card-container .bar-container {
+    height: 30px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-container .bar-container .bar {
+    width: 40px;
+    height: 5px;
+    background-color: rgb(174, 174, 178);
+    z-index: 5;
+    border-radius: 5px;
+}
+
+.card-container .card .card-body {
+    /* background-color: pink; */
+    height: 83%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-container .title-container {
+    /* background-color: pink; */
+    display: block;
+}
+.card-container .title-container .title {
+    color: #fff;
+    font-family: "Inter";
+    font-size: 1.4rem;
+    font-weight: 500;
+    margin-bottom: 35px;
+    margin-left: 15px;
+    margin-right: 15px;
+
+    display: flex;
+    justify-content: space-between;
+}
+.card-container .title-container .title img {
+    height: 25px;
+    object-fit: contain;
+}
+
+.card-container .grid-container {
+    /* background-color: pink; */
+     height: 250px;
+}
+.card-container .grid-container .row {
+    height: 50%;
+    margin-bottom: 15px;
+
+    display: flex;
+    justify-content: space-around;
+}
+
+.card-container .grid-container .row .cards {
+    background-color: rgba(174, 174, 178);
+    width: 120px;
+    height: 110px;
+    border-radius: 20px;
+    transition: ease-in-out .3s;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card-container .grid-container .row .cards:hover {
+    background-color:  rgb(164, 164, 168);
+}
+
+.card-container .grid-container .row .cards1 {
+    background-color: rgb(50, 215, 75);
+    width: 120px;
+    height: 110px;
+    border-radius: 20px;
+    transition: ease-in-out .3s;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card-container .grid-container .row .cards1:hover {
+    background-color: rgb(47, 204, 71);
+}
+.card-container .grid-container .row .cards1 img {
+    height: 60px;
+} */

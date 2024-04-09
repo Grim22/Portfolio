@@ -1,0 +1,94 @@
+/* * {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-family: "Inter";
+    height: 80px;
+    background-color: #eeeeee;
+}
+
+.header-container{
+    background-color: rgb(84, 84, 86);
+    height: 45px;
+    width: 600px;
+    border-radius: 15px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5px 0 5px;
+}
+
+.left-side, .right-side {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.right-side {
+    display: flex;
+    gap: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.logo-container {
+    height: 37px;
+    background-color: #eeeeee;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo-container img {
+    height: 100%;
+    object-fit: contain;
+}
+
+.logo-text {
+    color:  #eeeeee;
+    font-size: 1.1em;
+    font-weight: 500;
+    margin-left: 5px;
+}
+
+.about a{
+    color:  #eeeeee;
+    font-size: 1em;
+    font-weight: 400;
+}
+
+.about a:hover{
+    color: #fff;
+}
+
+
+
+.talk a {
+    color:  rgb(28, 28, 30);
+    font-size: 1em;
+    font-weight: 600;
+    height: 35px;
+    padding: 0 7px;
+    
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #eeeeee;
+}
+
+.talk a:hover{
+    background-color: rgb(48, 48, 48);
+    color:  #eeeeee;
+} */
