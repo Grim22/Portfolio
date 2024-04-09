@@ -8,7 +8,8 @@ function Header() {
  
     const [click, setClick] = useState(false);
     const handleClick = () => {
-        setClick(!click);
+        setClick(!click); 
+        // awdawd
     }
     const content = <>
         <div className="mobile lg:hidden h-auto w-full flex items-center rounded  bg-neutral-600">
