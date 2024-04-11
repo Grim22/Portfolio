@@ -21,7 +21,7 @@ function Projects() {
                 <img className='h-40 px-5 -mr-9' src={idea} alt="" />
             </div>
             <div className="grids-container h-full flex flex-col justify-start my-5">
-                <div className="row sm:flex-col h-[400px] w-full flex justify-around items-center lg:flex-row md:flex-col">
+                <div className="row flex-col sm:flex-col h-[400px] w-full flex justify-around items-center lg:flex-row md:flex-col">
                     <div className="card bg-neutral-500 h-[260px] w-auto min-w-[370px] rounded-2xl drop-shadow-2xl p-0 m-0 overflow-hidden flex flex-col justify-start hover:h-[400px] transition: duration-500 ease-in-out">
                         <div className="body flex items-center justify-center">
                             <img className='h-[260px] rounded-2xl object-contain' src={keebs} alt="" />
@@ -77,7 +77,7 @@ function Projects() {
                         </div>
                     </div>
                 </div>
-                <div className="row sm:flex-col h-[400px] w-full flex justify-around items-center flex-row">
+                <div className="row flex-col sm:flex-col h-[400px] w-full flex justify-around items-center flex-row">
                     <div className="card bg-neutral-500 h-[260px] w-auto min-w-[370px] rounded-2xl drop-shadow-2xl p-0 m-0 overflow-hidden flex flex-col justify-start hover:h-[400px] transition: duration-500 ease-in-out">
                         <div className="body flex items-center justify-center">
                             <img className='h-[260px] rounded-2xl object-contain' src={keebs} alt="" />

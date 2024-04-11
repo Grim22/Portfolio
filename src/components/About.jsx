@@ -24,7 +24,7 @@ function About() {
         Aos.init({duration: 2000})
     },[])
   return (
-    <div id='about' className="about-container w-full h-auto flex justify-center content-center items-center sticky top-0">
+    <div id='about' className="about-container w-full h-auto flex justify-center content-center items-center">
         <div className="about  bg-white dark:bg-neutral-700 md:h-4/6 h-4/6 w-full max-w-screen-xl flex p-20 rounded-3xl flex-row-reverse">
             <div className="left w-8/12 ml-24">
                 <div className="text-container w-full flex flex-col justify-center items-start">
