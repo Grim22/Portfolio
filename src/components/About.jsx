@@ -45,7 +45,7 @@ function About() {
                 </div>
                
             </div>
-            <div className="right h-auto w-full mt-10 md:w-full flex justify-center items-center">
+            <div className="right h-auto w-full mt-10 md:w-full flex justify-center items-center lg:mt-0">
                 <div className="stacks-container bg-neutral-500 h-fit max-w-[370px] pt-5 rounded-2xl sm:w-[370px] drop-shadow-xl ">
                     <div className='bar-container h-4 flex justify-center items-center'>
                         <p className="bar bg-neutral-300 h-1 w-8 rounded-full"></p>
