@@ -60,7 +60,7 @@ function Contact() {
                             <img className='object-contain h-[11vh]' src={gmail} alt="" />
                         </div>
                         <div className="email flex items-center justify-center font-inter font-medium text-neutral-700 mt-6">
-                            allenbandian2203@gmail.com
+                            <a href="mailto:allenbandian2203@gmail.com">allenbandian2203@gmail.com</a>
                         </div>
                     </div>
                 </div>
