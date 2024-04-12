@@ -36,10 +36,10 @@ function Header() {
   return (
     <>
         <header className='h-20 w-full flex flex-col justify-center items-center rounded m-0'>
-            <div className="header-container h-11 w-[95%] sm:w-[600px] flex-col md:w-[700px] md:flex md:flex-row md:bg-neutral-600 md:rounded-2xl">
+            <div className="header-container h-11 w-[95%] sm:w-[600px] flex-col md:w-[700px] md:flex md:flex-row md:bg-neutral-600 md:rounded-2xl z-50">
                 <div className="left-side h-full w-full py-5 px-1 flex items-center justify-between md:w-3/6 md:justify-start bg-neutral-600 rounded-2xl">
                     <div className="logo-container bg-[#eeeeee] h-9 w-9 rounded-xl">
-                        <img src={logo} alt="" />
+                        <img src={logo} alt="" className='contain lg:hover:scale-[2] transition duration-500 ease-in-out'/>
                     </div>
                     <div className="logo-text px-3 font-SFmedium text-white text-xl font-medium tracking-wide">
                         GrimCoder.
@@ -65,14 +65,14 @@ function Header() {
                     <div data-aos='fade-in' data-aos-duration='500' className="right-side bg-neutral-600 h-auto w-full mt-5 flex flex-col sm:h-auto sm:w-full sm:mt-5 sm:flex md:w-3/6 md:flex md:flex-row md:m-0 md:h-11 md:justify-end items-center px-1 rounded-2xl">
                         <div className="about py-5 sm:hidden md:flex px-3 font-SFregular text-white text-medium"> 
                             <Link to="about"  spy={true} smooth={true} offset={-110} duration={1000} >
-                                <button className='hover:text-green-500 transition duration-150 ease-in-out'>
+                                <button className='hover:text-[#30db5b] transition duration-150 ease-in-out'>
                                     about
                                 </button>
                             </Link>
                         </div>
                         <div className="projects py-5 sm:hidden md:flex px-3 font-SFregular text-white text-medium">
                             <Link to="projects" spy={true} smooth={true} offset={-110} duration={1000}>
-                                <button className='hover:text-green-500 transition duration-150 ease-in-out'>
+                                <button className='hover:text-[#30db5b] transition duration-150 ease-in-out'>
                                     projects
                                 </button>
                             </Link>

@@ -14,18 +14,17 @@ function Hero() {
                     <div className="subtext  text-black dark:text-neutral-300 text-2xl leading-normal text-center font-SFsbi tracking-normal pb-10 md:pb-5 md:text-2xl md:text-start lg:text-3xl lg:pb-7"> Web Designer / Front End Developer.
                     </div>
                     <div className="text text-black dark:text-neutral-400 text-lg leading-normal text-center font-SFregular pb-10 md:pb-5 md:text-md md:text-start lg:text-xl lg:pb-7">
-                        I'm passionate about cutting edge, pixel-perfect, beautiful interfaces and intuitively implemented UX.
+                    I'm enthusiastic about creating advanced, flawlessly designed interfaces and user experiences that are implemented with intuitive ease.
                     </div>
                 </div>
                 <div className="button-container w-full flex items-center justify-center md:justify-start">
-                    <Link to="contact" spy={true} smooth={true} offset={-110} duration={1000}><button className='bg-[#30db5b] px-5 py-2 rounded-full text-white font-SFmedium text-base 
-                    hover:bg-[#007d1b] transition duration-150 ease-in-out'>&#8756; Let's work together!</button>
+                    <Link to="contact" spy={true} smooth={true} offset={-110} duration={1000}><button className='bg-[#30db5b] px-5 py-2 rounded-full text-white font-SFmedium text-base hover:bg-[#007d1b] transition duration-150 ease-in-out drop-shadow-xl'>&#8756; Let's work together!</button>
                     </Link>
                 </div>
             </div>
             <div data-aos='fade-left' className="right h-64 w-full md:w-4/12 flex justify-center content-center">
                 <div className="pic-container h-full w-full flex justify-center items-center content-center md:w-96 md:flex md:justify-center md:align-center md:content-center">
-                    <img className='h-full ml-6 md:h-[35vh] object-contain -mt-24' src={wave} alt="" />
+                    <img className='h-full ml-6 md:h-[35vh] object-contain -mt-24 drop-shadow-xl' src={wave} alt="" />
                 </div> 
             </div>
         </div>

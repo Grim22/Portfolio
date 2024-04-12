@@ -15,9 +15,9 @@ function Projects() {
     <div id='projects' className='projects-container z-10'>
         <div className="projects bg-neutral-200 dark:bg-neutral-600 h-auto w-full flex p-10 md:max-w-screen-xl md:px-20 md:py-16 rounded-3xl flex-col  ">
             <div className="title-container w-full flex flex-col-reverse items-center text-center lg:flex-row lg:text-start">
-                <p className="title w-full text-green-500 text-4xl font-SFbold py-3">Recent Projects.</p>
+                <p className="title w-full text-green-500 text-5xl font-SFbold py-3 drop-shadow-xl ">Recent Projects.</p>
                 <div className="img-container w-full flex items-center justify-center h-40 lg:justify-end">
-                    <img className='object-contain h-48' src={idea} alt="" />
+                    <img className='object-contain h-48 drop-shadow-xl ' src={idea} alt="" />
                 </div>
             </div>
             <div className="grids-container h-full flex flex-col justify-start mt-10">

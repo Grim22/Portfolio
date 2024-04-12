@@ -29,9 +29,9 @@ function About() {
             <div className="left md:w-full ">
                 <div className="text-container w-full flex flex-col justify-center items-center">
                     <div className="img-container w-full flex items-center justify-center h-40">
-                            <img className='object-contain h-40' src={welcome} alt="" />
+                            <img className='object-contain h-40 drop-shadow-xl' src={welcome} alt="" />
                         </div>
-                    <div className="title text-green-500 text-5xl font-SFbold py-3">
+                    <div className="title text-green-500 text-5xl font-SFbold py-3 drop-shadow-xl ">
                         About me.
                     </div>
                     <div className="sub text-black dark:text-neutral-300 text-2xl font-inter font-semibold py-3 pt-10">
@@ -39,16 +39,14 @@ function About() {
                     </div>
                     <div className="about-me text-black dark:text-neutral-400 text-md font-inter font-normal py-3">
                         Hello! My name is Allen. I am a graduate of Bachelor of Science in Aviation Electronics Technology and Full Stack Web Development at KodeGo.
-                        <br />
-                        I enjoy taking complex problems and turning them into simple and beautiful interface designs.
                         <br /><br />
-                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti vitae at consequuntur, rerum perferendis repudiandae quae natus quas dolorem voluptas ad rem reiciendis, optio obcaecati aut. Earum, eveniet! Excepturi, quam.
+                        I enjoy designing and developing a website because it allows me to blend creativity with technical skills. The process of conceptualizing a design, choosing color schemes, typography, and layout elements is like painting on a digital canvas. It's incredibly satisfying to see a vision come to life through code and visual elements.
                     </div>
                 </div>
                
             </div>
             <div className="right h-auto w-full mt-10 md:w-full flex justify-center items-center">
-                <div className="stacks-container bg-neutral-500 h-fit max-w-[370px] pt-5 rounded-2xl sm:w-[370px]">
+                <div className="stacks-container bg-neutral-500 h-fit max-w-[370px] pt-5 rounded-2xl sm:w-[370px] drop-shadow-xl ">
                     <div className='bar-container h-4 flex justify-center items-center'>
                         <p className="bar bg-neutral-300 h-1 w-8 rounded-full"></p>
                     </div>
@@ -103,23 +101,6 @@ function About() {
                                 
                             </SwiperSlide>
                         </Swiper>
-
-                        {/* <div className="row h-auto flex justify-center gap-12 mb-10">
-                            <div className="cards bg-neutral-400 h-24 w-24 rounded-2xl">
-                            
-                            </div>
-                            <div className="cards bg-green-500 h-24 w-24 rounded-2xl">
-                                
-                            </div>
-                        </div>
-                        <div className="row h-auto flex justify-center gap-12">
-                            <div className="cards bg-neutral-400 h-24 w-24 rounded-2xl">
-                            
-                            </div>
-                            <div className="cards bg-neutral-400 h-24 w-24 rounded-2xl">
-                                
-                            </div>
-                        </div> */}
                     </div>
                 </div>
             </div>
