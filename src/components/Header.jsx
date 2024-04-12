@@ -1,5 +1,4 @@
 
-import '../css/Header.css';
 import { Link } from 'react-scroll';
 import logo from '../assets/laptop.png'
 import { useState,useEffect } from 'react';

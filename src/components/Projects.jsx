@@ -3,7 +3,6 @@ import idea from '../assets/idea.png'
 import { Link } from 'react-router-dom'
 import { CiLink } from "react-icons/ci";
 import { FaGithub } from "react-icons/fa";
-import '../css/index.css'
 
 import 'swiper/css';
 import 'swiper/css/navigation';
