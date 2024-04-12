@@ -24,20 +24,20 @@ function About() {
         Aos.init({duration: 2000})
     },[])
   return (
-    <div id='about' className="about-container w-full h-auto flex justify-center content-center items-center">
-        <div className="about  bg-white dark:bg-neutral-700 md:h-4/6 h-4/6 w-full max-w-screen-xl flex p-20 rounded-3xl flex-row-reverse">
-            <div className="left w-8/12 ml-24">
-                <div className="text-container w-full flex flex-col justify-center items-start">
-                    <div className="img-container h-40 flex -ml-4">
+    <div id='about' className="about-container w-full h-auto flex justify-center content-center items-center mt-10">
+        <div className="about bg-transparent h-auto w-full p-10 flex flex-col md:h-auto md:w-full md:max-w-screen-xl md:flex md:p-10 rounded-3xl md:flex-col lg:flex-row-reverse lg:p-20">
+            <div className="left md:w-full ">
+                <div className="text-container w-full flex flex-col justify-center items-center">
+                    <div className="img-container w-full flex items-center justify-center h-40">
                             <img className='object-contain h-40' src={welcome} alt="" />
                         </div>
-                    <div className="title text-black dark:text-white text-5xl font-inter font-semibold py-3">
+                    <div className="title text-green-500 text-5xl font-SFbold py-3">
                         About me.
                     </div>
-                    <div className="sub text-black dark:text-white text-2xl font-inter font-medium py-3">
+                    <div className="sub text-black dark:text-neutral-300 text-2xl font-inter font-semibold py-3 pt-10">
                         I'm a Creative Web Designer and Front End Developer from Batangas, Philippines.
                     </div>
-                    <div className="about-me text-black dark:text-white text-md font-inter font-medium py-3">
+                    <div className="about-me text-black dark:text-neutral-400 text-md font-inter font-normal py-3">
                         Hello! My name is Allen. I am a graduate of Bachelor of Science in Aviation Electronics Technology and Full Stack Web Development at KodeGo.
                         <br />
                         I enjoy taking complex problems and turning them into simple and beautiful interface designs.
@@ -47,15 +47,15 @@ function About() {
                 </div>
                
             </div>
-            <div className="right w-4/12 flex justify-center items-center">
-                <div className="stacks-container bg-neutral-500 h-fit w-full pt-5 rounded-2xl">
+            <div className="right h-auto w-full mt-10 md:w-full flex justify-center items-center">
+                <div className="stacks-container bg-neutral-500 h-fit max-w-[370px] pt-5 rounded-2xl sm:w-[370px]">
                     <div className='bar-container h-4 flex justify-center items-center'>
                         <p className="bar bg-neutral-300 h-1 w-8 rounded-full"></p>
                     </div>
-                    <div className="title ml-16 pt-3 font-inter text-xl font-medium text-white">
+                    <div className="title ml-16 pt-3 font-SFmedium text-xl  text-white">
                         Tech Stack
                     </div>
-                    <div className="card-container h-auto pt-9">
+                    <div className="card-container h-auto pt-5">
                         <Swiper
                             modules={[Navigation, Pagination, Scrollbar, A11y]}
                             spaceBetween={50}

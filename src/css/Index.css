@@ -3,6 +3,31 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: 'SF-medium';
+  src: url(../assets/SFPRODISPLAYMEDIUM.OTF);
+}
+
+@font-face {
+  font-family: 'SF-regular';
+  src: url(..//assets/SFPRODISPLAYREGULAR.OTF);
+}
+
+@font-face {
+  font-family: 'SF-bold';
+  src: url(..//assets/SFPRODISPLAYBOLD.OTF);
+}
+
+@font-face {
+  font-family: 'SF-semibold-italic';
+  src: url(..//assets/SFPRODISPLAYSEMIBOLDITALIC.OTF);
+}
+
+@font-face {
+  font-family: 'SF-rounded-bold';
+  src: url(..//assets/SF-Pro-Rounded-Bold.otf);
+}
+
 body::-webkit-scrollbar {
   display: none;
 }
@@ -11,6 +36,9 @@ html {
   scroll-behavior: smooth;
 }
 
+body * {
+  @apply transition-colors duration-1000 ease-in-out
+}
 
 
  /* body, html {

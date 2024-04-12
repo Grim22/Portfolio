@@ -41,8 +41,8 @@ function Header() {
                     <div className="logo-container bg-[#eeeeee] h-9 w-9 rounded-xl">
                         <img src={logo} alt="" />
                     </div>
-                    <div className="logo-text px-3 font-inter text-white text-xl font-medium">
-                        GrimCoder
+                    <div className="logo-text px-3 font-SFmedium text-white text-xl font-medium tracking-wide">
+                        GrimCoder.
                     </div>
                     
                     <div className='button-container md:hidden'>
@@ -63,21 +63,21 @@ function Header() {
 
                 {(toggleMenu || screenWidth > 768) && (
                     <div data-aos='fade-in' data-aos-duration='500' className="right-side bg-neutral-600 h-auto w-full mt-5 flex flex-col sm:h-auto sm:w-full sm:mt-5 sm:flex md:w-3/6 md:flex md:flex-row md:m-0 md:h-11 md:justify-end items-center px-1 rounded-2xl">
-                        <div className="about py-5 sm:hidden md:flex px-3 font-inter text-white text-medium"> 
+                        <div className="about py-5 sm:hidden md:flex px-3 font-SFregular text-white text-medium"> 
                             <Link to="about"  spy={true} smooth={true} offset={-110} duration={1000} >
-                                <button>
+                                <button className='hover:text-green-500 transition duration-150 ease-in-out'>
                                     about
                                 </button>
                             </Link>
                         </div>
-                        <div className="projects py-5 sm:hidden md:flex px-3 font-inter text-white text-medium">
+                        <div className="projects py-5 sm:hidden md:flex px-3 font-SFregular text-white text-medium">
                             <Link to="projects" spy={true} smooth={true} offset={-110} duration={1000}>
-                                <button>
+                                <button className='hover:text-green-500 transition duration-150 ease-in-out'>
                                     projects
                                 </button>
                             </Link>
                         </div>
-                        <div className="talk py-5 flex sm:hidden md:flex font-inter text-black font-semibold text-medium justify-center items-center text-center "> 
+                        <div className="talk py-5 flex sm:hidden md:flex font-SFbold text-black text-medium justify-center items-center text-center "> 
                             <Link to="contact" spy={true} smooth={true} offset={-70} duration={1000}>
                                 <button className='h-9 w-22 bg-[#eeeeee] rounded-xl px-3 hover:bg-[#30db5b] hover:text-white hover:transition .duration-150 ease-in-out'>
                                     Let's Talk.

@@ -8,6 +8,11 @@ export default {
   theme: {
     fontFamily: {
       'inter': ['Inter'],
+      'SFbold': ['SF-bold'],
+      'SFregular': ['SF-regular'],
+      'SFmedium': ['SF-medium'],
+      'SFsbi': ['SF-semibold-italic'],
+      'SFrb': ['SF-rounded-bold'],
     },
     extend: {},
   },
