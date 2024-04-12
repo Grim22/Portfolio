@@ -34,7 +34,7 @@ function Contact() {
                             <img className='object-contain h-[9vh]' src={number} alt="" />
                         </div>
                         <div className="email flex items-center justify-center font-inter font-medium text-violet-200 mt-6">
-                            +639 454 1234
+                            +63945 835 3063
                         </div>
                     </div>
                 </div>
