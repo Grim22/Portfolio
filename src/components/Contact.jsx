@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import { useState } from 'react';
 
 import callme from '../assets/callme.png'
 import like from '../assets/like.png'
@@ -13,6 +14,19 @@ import email from '../assets/email.png'
 import number from '../assets/number.png'
 
 function Contact() {
+
+   const [isNumberClicked, setIsNumberClicked] = useState(false);
+
+   const handleNumberClick = () => {
+    setIsNumberClicked(!isNumberClicked)
+   }
+
+   const [isGmailClicked, setIsGmailClicked] = useState(false);
+
+   const handleGmailClick = () => {
+    setIsGmailClicked(!isGmailClicked)
+   }
+
   return (
     <div id="contact" className="contact-container sticky">
         <div className="contact bg-transparent  h-auto w-full  flex flex-col p-10 md:max-w-screen-xl lg:p-20 rounded-3xl ">
@@ -28,15 +42,13 @@ function Contact() {
                 <Link to="https://linkedin.com/in/allen-bandian-096685169/" target='_blank' className="bg-blue-600 rounded-3xl col-span-2 md:col-span-2 drop-shadow-lg flex items-center justify-center hover:bg-blue-700 transition duration-150">
                     <CiLinkedin  className='h-[40%] w-auto text-white'/>
                 </Link>
-                <div className="bg-violet-700 rounded-3xl row-span-2 md:row-span-2 drop-shadow-lg flex items-center justify-center">
-                    <div className="hover-container overflow-hidden h-[30%] w-[90%] hover:py-10 transition ease-in-out duration-500">
-                        <div className="pic-container h-[80%] flex items-center justify-center ">
+                <div className="bg-violet-700 rounded-3xl row-span-2 md:row-span-2 drop-shadow-lg flex items-center justify-center" onClick={handleNumberClick}>
+                    {isNumberClicked ? 
+                    <div className='number-container text-white font-SFmedium'>+63945 853 3063 </div>
+                    : 
+                    <div className="pic-container h-[80%] flex items-center justify-center ">
                             <img className='object-contain h-[9vh]' src={number} alt="" />
-                        </div>
-                        <div className="email flex items-center justify-center font-inter font-medium text-violet-200 mt-6">
-                            +63945 835 3063
-                        </div>
-                    </div>
+                        </div>}
                 </div>
                 <div className="bg-stone-800 rounded-3xl drop-shadow-lg flex flex-col items-center justify-center">
                         <img className='h-[40%]' src={resumee} alt="" />
@@ -53,16 +65,16 @@ function Contact() {
                 <div className="bg-neutral-400 rounded-3xl drop-shadow-lg flex items-center justify-center">
                         <img className='h-[60%] drop-shadow-xl object-contain' src={like} alt="" />
                 </div>
-                <div className="bg-neutral-300  sm:h-[238px
-                ] row-span-2 md:row-span-2 rounded-3xl drop-shadow-lg flex items-center justify-center">
-                    <div className="hover-container overflow-hidden h-[30%] w-[90%] over hover:py-10 duration-300 ease-in-out">
-                        <div className="pic-container h-[80%] flex items-center justify-center ">
+                <div className="bg-neutral-300 sm:h-[238px
+                ] row-span-2 md:row-span-2 rounded-3xl drop-shadow-lg flex items-center justify-center content-center" onClick={handleGmailClick}>
+                        {isGmailClicked ? 
+                        <div className="pic-container h-[80%] w-full flex items-center justify-center content-center text-wrap">
+                            <a href='mailto:allenbandian2203@gmail.com' className='text-black font-SFmedium text-sm'><p className='h-24 w-[60%] text-nowrap flex items-center'>allenbandian2203 <br className='lg:hidden'/> @gmail.com</p></a>
+                        </div>
+                         :
+                        <div className="pic-container h-[80%] w-full flex items-center justify-center">
                             <img className='object-contain h-[11vh]' src={gmail} alt="" />
-                        </div>
-                        <div className="email flex items-center justify-center font-inter font-medium text-neutral-700 mt-6">
-                            <a href="mailto:allenbandian2203@gmail.com">allenbandian2203@gmail.com</a>
-                        </div>
-                    </div>
+                        </div>}
                 </div>
                 <Link to="https://github.com/Grim22" target='_blank' className="bg-neutral-100  rounded-3xl drop-shadow-lg flex items-center justify-center hover:bg-neutral-200 transition duration-150">
                     <SiIndeed className='h-[30%] w-auto text-blue-900'/>
