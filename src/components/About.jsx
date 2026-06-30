@@ -13,6 +13,7 @@ import react from '../assets/react.png'
 import tailwind from '../assets/tailwind.png'
 import bootstrap from '../assets/bootstrap.png'
 import figma from '../assets/figma.png'
+import canva from '../assets/canva.png'
 import Aos from 'aos'
 import 'aos/dist/aos.css'
 import { useEffect } from 'react';
@@ -35,12 +36,14 @@ function About() {
                         About me.
                     </div>
                     <div className="sub text-black dark:text-neutral-300 text-2xl font-inter font-semibold py-3 pt-10">
-                        I'm a Creative Web Designer and Front End Developer from Batangas, Philippines.
+                        I'm a Web Designer & Front-End Developer passionate about building websites that are as functional as they are visually refined.
                     </div>
                     <div className="about-me text-black dark:text-neutral-400 text-md font-inter font-normal py-3">
-                        Hello! My name is Allen. I am a graduate of Bachelor of Science in Aviation Electronics Technology and Full Stack Web Development at KodeGo.
+                        For the past year, I've worked as a Web Builder at Luxury Presence, creating and customizing websites for luxury real estate agents and teams across the U.S. That experience has strengthened my eye for detail, design consistency, responsive development, and delivering polished websites that represent premium brands.
                         <br /><br />
-                        I enjoy designing and developing a website because it allows me to blend creativity with technical skills. The process of conceptualizing a design, choosing color schemes, typography, and layout elements is like painting on a digital canvas. It's incredibly satisfying to see a vision come to life through code and visual elements.
+                        I enjoy the process of transforming designs into seamless digital experiences—carefully balancing aesthetics, usability, and performance. Whether I'm refining layouts, writing front-end code, or solving design challenges, I believe the smallest details often make the biggest difference.
+                         <br /><br />
+                         As I continue growing in my career, my goal is to build digital experiences that not only look great but also create meaningful value for the businesses and people behind them.
                     </div>
                 </div>
                
@@ -77,7 +80,7 @@ function About() {
                                         <img className='h-20 object-contain' src={figma} alt="" />
                                     </div>
                                     <div className="cards bg-neutral-600 h-24 w-24 rounded-2xl flex justify-center items-center">
-                                        <img className='h-20 object-contain' src={react} alt="" />
+                                        <img className='h-20 object-contain' src={canva} alt="" />
                                     </div>
                                 </div>
                             </SwiperSlide>
