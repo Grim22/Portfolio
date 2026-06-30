@@ -1,8 +1,8 @@
 import keebs from '../assets/keebs.png'
 import idea from '../assets/idea.png'
 import chat from '../assets/chat.png'
-import maria from '../assets/maria.png'
-import lucia from '../assets/lucia.png'
+import maria from '../assets/Maria.png'
+import lucia from '../assets/Lucia.png'
 import { Link } from 'react-router-dom'
 import { CiLink } from "react-icons/ci";
 import { FaGithub } from "react-icons/fa";
