@@ -1,6 +1,8 @@
 import keebs from '../assets/keebs.png'
 import idea from '../assets/idea.png'
 import chat from '../assets/chat.png'
+import maria from '../assets/maria.png'
+import lucia from '../assets/lucia.png'
 import { Link } from 'react-router-dom'
 import { CiLink } from "react-icons/ci";
 import { FaGithub } from "react-icons/fa";
@@ -77,8 +79,59 @@ function Projects() {
                             </Link>
                         </div>
                     </div>
+                    
                 </div>
             </div>
+
+  <div className="grids-container h-full flex flex-col justify-start mt-10">
+                <div className="row h-auto w-full flex flex-col justify-around items-center lg:flex-row">
+                    <div className="card bg-neutral-500 h-auto pb-5 w-[370px] mb-10 rounded-2xl drop-shadow-2xl p-0 m-0 overflow-hidden flex flex-col justify-start ">
+                        <div className="body flex items-center justify-center">
+                            <img className='h-[260px] rounded-2xl object-contain' src={maria} alt="" />
+                        </div>
+                        <div className="text-container flex flex-col px-9 h-[120px]">
+                            <div className="title py-3 text-white font-SFmedium text-xl">
+                                Real Estate Agent Website
+                            </div>
+                            <div className="info  text-neutral-300 font-SFregular text-md">
+                                Northstar V5
+                            </div>
+                        </div>
+                        <div className="foot flex items-center justify-between px-9 pt-4">
+                            <Link to="https://marianmhomes.com/" target='_blank'>
+                                <button className='visit bg-[#30db5b] px-5 py-2 rounded-full text-white font-SFmedium text-base 
+                    hover:bg-[#007d1b] transition duration-150 ease-in-out flex items-center'>
+                                    <CiLink/> &nbsp; URL
+                                </button>
+                            </Link>
+                        </div>
+                    </div>
+                    <div className="card bg-neutral-500 h-auto pb-5 w-[370px] mb-10 rounded-2xl drop-shadow-2xl p-0 m-0 overflow-hidden flex flex-col justify-start ">
+                        <div className="body flex items-center justify-center rounded-2xl">
+                            <img className='h-[260px] rounded-2xl object-contain' src={lucia} alt="" />
+                        </div>
+                        <div className="text-container flex flex-col px-9 h-[120px]">
+                            <div className="title py-3 text-white font-SFmedium text-xl">
+                                Real Estate Agent Website
+                            </div>
+                            <div className="info  text-neutral-300 font-SFregular text-md">
+                                Northstar V5
+                            </div>
+                        </div>
+                        <div className="foot flex items-center justify-between px-9 pt-4">
+                            <Link to="https://lucialuxuryliving.com/" target='_blank'>
+                                <button className='visit bg-[#30db5b] px-5 py-2 rounded-full text-white font-SFmedium text-base 
+                    hover:bg-[#007d1b] transition duration-150 ease-in-out flex items-center'>
+                                    <CiLink/> &nbsp; URL
+                                </button>
+                            </Link>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+
+
         </div>
     </div>
   )
